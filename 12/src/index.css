@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  background: #1e1e2f;
+}
+.navbar {
+  height: 60px;
+  background: #2c2c3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.hero {
+  height: calc(100vh - 60px);
+  background: linear-gradient(rgba(110, 90, 190, 0.9), rgba(110, 90, 190, 0.9)),
+    url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  padding-left: 60px;
+  max-width: 500px;
+}
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.hero-search {
+  display: flex;
+  gap: 10px;
+}
+.hero-search input {
+  padding: 12px;
+  border: none;
+  width: 220px;
+}
+.hero-search button {
+  padding: 12px 20px;
+  border: none;
+  background: #d4a437;
+  cursor: pointer;
+}
+.page {
+  color: #fff;
+  padding: 40px;
+  font-size: 32px;
+}

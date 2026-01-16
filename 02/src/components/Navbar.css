@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #1e293b;
+  padding: 12px 20px;
+}
+
+nav h2 {
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 22px;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #334155;
+  color: #ffffff;
+}
+
+.active {
+  background-color: #2563eb;
+  color: #ffffff;
+}

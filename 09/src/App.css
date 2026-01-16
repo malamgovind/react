@@ -1,0 +1,37 @@
+div {
+  padding: 20px;
+  margin-left: 10rem;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+thead {
+  background-color: #3782d3;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+.active {
+  background-color: #2eda56;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inactive {
+  background-color: rgb(228, 53, 53);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+ color: black;
+ margin-top: 2rem;
+}
